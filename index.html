@@ -3,27 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
- <!-- boostrap css -->
+<!-- boostrap css -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
- <!-- boostrap css end -->
+<!-- boostrap css end -->
 
- <!-- bootstraap icons -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
- <!-- bootstrap icons end -->
     <title>WEB PROFILE ME</title>
+
 </head>
    <body style="background-color:#fdecc0;">
 
-    <!-- style.css -->
-    <link rel="stylesheet" href="style.css">
+    
+<!-- bootstraap icons -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<!-- bootstrap icons end -->
+ 
+<!-- aos -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- aos end -->
 
-  <body>
+<!-- font.css -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@1&display=swap');
+    </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@1&family=Titan+One&display=swap');
+</style>
+<!-- font css end -->
+      
+<!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+<!-- style.css end -->
+
     <!-- navbar -->
     
     <nav class="navbar navbar-expand-lg navbar-dark shadow-lg" style="background-color: #703a20">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#"></a>
+        <a class=
+        "navbar-brand" style="font-family: 'Creepster', cursive;"  href=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,8 +69,8 @@
     <section class="jumbotron text-center">
         <img src="mmn.png" alt="PASTA" width="200px"
         class="rounded-circle img-thumbnail"/>
-        <h1 class="display-4" style="color: rgb(124, 76, 14);">JUAN CARLOS KAYA</h1>
-        <p class="lead" style="color: #703a20;">Computer scient | Html Css Javascript</p>
+        <h1 class="display-4 mt-3" style="color: rgb(124, 76, 14);">JUAN CARLOS KAYA</h1>
+        <p class="lead fs-5" style="color: #703a20;">Computer scient | Html Css Javascript</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path 
           fill="#fdecc0" fill-opacity="1" 
           d="M0,96L24,90.7C48,85,96,75,144,101.3C192,128,240,192,288,229.3C336,267,384,277,432,245.3C480,213,528,139,576,128C624,117,672,171,720,
@@ -67,14 +85,15 @@
 
     <!-- About -->
     <section id="about">
-        <div class="container">
+        <div class="container"  data-aos="fade-in">
             <div class="row text-center mb-3">
                 <div class="col">
-                    <h2>About</h2>
+                    <h2 style="font-family: 'Titan One', cursive; color: #703a20;" class="mb-4">About</h2>
                 </div>
             </div>
             <div class="row justify-content-center fs-6 text-center">
-                <div class="col-md-4 " style="color:;">
+                <div class="col-md-4 " style="font-family: 'Sanchez', serif;
+                color:#8f5133;">
                      <p>
                       Juan carlos kaya<br>
                       lahir pada tanggal 14 januari 2004 (Capricorn)<br>
@@ -86,7 +105,8 @@
                       dan sementara berdomisili di OSM (Ambon)
                      </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4"  style="font-family: 'Sanchez', serif;
+                color:#8f5133;">
                   <p>
                   Juan carlos kaya<br>
                   lahir pada tanggal 14 januari 2004 (Capricorn)<br>
@@ -115,10 +135,10 @@
 
     <!-- Galeri -->
     <section id="Galeri">
-        <div class="container">
+        <div class="container"  data-aos="fade-in">
             <div class="row text-center mb-3">
                 <div class="col">
-                    <h2>Galeri</h2>
+                    <h2 style="font-family: 'Titan One', cursive; color: #703a20;" class="mb-4">Galeri</h2>
                 </div>
             </div>
             <div class="row">
@@ -232,10 +252,10 @@
 
     <!-- contact -->
 <section id="contact">
-<div class="container">
+<div class="container"  data-aos="fade-in">
     <div class="row text-center mb-3">
         <div class="col">
-            <h2>contact</h2>
+            <h2 style="font-family: 'Titan One', cursive; color: #703a20;" class="mb-4">contact</h2>
         </div>
     </div>
     <div class="row justify-content-center">
@@ -306,12 +326,14 @@
     <!-- footer end -->
 
     <!-- boostrap js -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVm
-    Mz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbx2A5RlRN8CPIytEXsN34RD4dBCdIjdRbK6Ad1uqu_eXBFLWT9mxKn7DWsuJtb2OEkvvA/exec'
